@@ -1,0 +1,6 @@
+---
+- name: Check ping
+  hosts: all
+  tasks:
+    - import_role:
+        name: ping_test
